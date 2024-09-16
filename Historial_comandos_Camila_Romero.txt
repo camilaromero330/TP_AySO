@@ -184,3 +184,16 @@ cat README.md
 git add .
 git commit -m "ADD: Agregada la info de alumno al README"
 history -a
+ls -la ~/.bash_history
+cat bash_history
+cat  ~/.bash_history
+pwd
+cp ~/.bash_history /home/vagrant/repogit/TP_AySO/Historial_comandos_Camila_Romero.txt
+cat Historial_comandos_Camila_Romero.txt
+git commit -m "ADD: Copiado el archivo bash_history a Historial_comandos_Camila_Romero en el repositorio"
+git add .
+git commit -m "ADD: Copiado el archivo bash_history a Historial_comandos_Camila_Romero en el repositorio"
+git push
+exit
+history
+history -a
